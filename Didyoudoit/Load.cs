@@ -31,6 +31,8 @@ namespace Didyoudoit
             JArray studentArray = (JArray)studentJson["students"];
             List<Student> Students = studentArray.ToObject<List<Student>>();
             klass.Students = Students;
+
+            Data.Klasses = klass;
         }
     }
 }

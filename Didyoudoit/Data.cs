@@ -8,7 +8,7 @@ namespace Didyoudoit
 {
     static class Data
     {
-        static public List<Klass> Klasses;
+        static public Klass Klasses;
     }
 
     class Klass
@@ -29,20 +29,21 @@ namespace Didyoudoit
             DataTable newTable = new DataTable(this.name);
 
             // Add Columns
-            Utils.addColumn(newTable, typeof(string), "id", "Student ID", false, true);
-            Utils.addColumn(newTable, typeof(string), "name", "Student ID", false, true);
+            Utils.addColumn(newTable, typeof(string), "학번", "Student ID", false, true);
+            Utils.addColumn(newTable, typeof(string), "이름", "Student ID", false, true);
             foreach (Task task in Tasks) Utils.addColumn(newTable, typeof(string), task.name, task.due, false, false);
 
             // Add Rows
             foreach (Student student in Students)
             {
                 DataRow dtRow = newTable.NewRow();
-                Utils.setRow(dtRow, "id", student.id);
-                Utils.setRow(dtRow, "name", student.name);
+                Utils.setRow(dtRow, "학번", student.id);
+                Utils.setRow(dtRow, "이름", student.name);
                 foreach (Task task in student.Tasks)
                 {
                     Utils.setRow(dtRow, task.name, task.location);
                 }
+                newTable.Rows.Add(dtRow);
             }
 
             return newTable;

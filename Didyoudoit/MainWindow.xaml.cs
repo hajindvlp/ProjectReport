@@ -24,6 +24,7 @@ namespace Didyoudoit
         {
             InitializeComponent();
             Load.init();
+            MainDataGrid.DataContext = Data.Klasses.getTable().DefaultView;
         }
     }
 }

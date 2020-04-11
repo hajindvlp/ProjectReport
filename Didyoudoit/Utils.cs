@@ -23,7 +23,7 @@ namespace Didyoudoit
 
         static public void setRow(DataRow dtRow, string name, dynamic data)
         {
-            dtRow["name"] = data;
+            dtRow[name] = data;
         }
 
         public const string LogPath = "C:/Users/Tool/Dev/ProjectReport/log.xml";
@@ -31,7 +31,8 @@ namespace Didyoudoit
         {
             using (StreamWriter sw = new StreamWriter(LogPath, true))
             {
-                sw.WriteLine(msg);
+                DateTime dt = DateTime.Now;
+                sw.WriteLine($"[{dt}] {msg}");
             }
         }
         
