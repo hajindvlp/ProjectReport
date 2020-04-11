@@ -8,14 +8,17 @@ namespace Didyoudoit
 {
     static class Data
     {
-        static public Klass Klasses;
+        static public List<Klass> Klasses;
+        static public Dictionary<string, Klass> KlassDicitonary = new Dictionary<string, Klass>();
     }
 
     class Klass
     {
         public List<Student> Students;
         public List<Task> Tasks;
-        string name;
+        public string name { get; set; }
+        public string studentJsonPath { get; set; }
+        public string taskJsonPath { get; set; }
 
         public Klass(string name)
         {

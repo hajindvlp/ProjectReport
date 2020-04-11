@@ -24,7 +24,14 @@ namespace Didyoudoit
         {
             InitializeComponent();
             Load.init();
-            MainDataGrid.DataContext = Data.Klasses.getTable().DefaultView;
+            MainDataGrid.DataContext = Data.Klasses[0].getTable().DefaultView;
+            KlassListBox.ItemsSource = Data.Klasses;
+        }
+
+        private void KlassListClicked(object sender, RoutedEventArgs e)
+        {
+            Utils.Log(((TextBlock)sender).Text);
+            MainDataGrid.DataContext = Data.KlassDicitonary[((TextBlock)sender).Text].getTable().DefaultView;
         }
     }
 }

@@ -5,23 +5,18 @@
             "id" : "2631",
             "tasks" : [
                 {
-                    "name" : "국어 논술",
+                    "name" : "영어띠 논술",
                     "due" : "2020-09-16",
                     "location" : null
                 },
                 {
-                    "name" : "국어 문학 논술",
+                    "name" : "영어띠 문학 논술",
                     "due" : "2020-09-12",
                     "location" : null
                 },
                 {
-                    "name" : "국어 독서 논술",
+                    "name" : "영어띠 독서 논술",
                     "due" : "2020-09-113",
-                    "location" : null
-                },
-                {
-                    "name" : "국어 수능특강",
-                    "due" : "2020-09-162",
                     "location" : null
                 }
             ]
@@ -31,22 +26,22 @@
             "id" : "1631",
             "tasks" : [
                 {
-                    "name" : "국어 논술",
+                    "name" : "영어띠 논술",
                     "due" : "2020-09-16",
                     "location" : null
                 },
                 {
-                    "name" : "국어 문학 논술",
+                    "name" : "영어띠 문학 논술",
                     "due" : "2020-09-12",
                     "location" : null
                 },
                 {
-                    "name" : "국어 독서 논술",
+                    "name" : "영어띠 독서 논술",
                     "due" : "2020-09-113",
                     "location" : null
                 },
                 {
-                    "name" : "국어 수능특강",
+                    "name" : "영어띠 수능특강",
                     "due" : "2020-09-162",
                     "location" : null
                 }
@@ -57,22 +52,22 @@
             "id" : "3631",
             "tasks" : [
                 {
-                    "name" : "국어 논술",
+                    "name" : "영어띠 논술",
                     "due" : "2020-09-16",
                     "location" : null
                 },
                 {
-                    "name" : "국어 문학 논술",
+                    "name" : "영어띠 문학 논술",
                     "due" : "2020-09-12",
                     "location" : null
                 },
                 {
-                    "name" : "국어 독서 논술",
+                    "name" : "영어띠 독서 논술",
                     "due" : "2020-09-113",
                     "location" : null
                 },
                 {
-                    "name" : "국어 수능특강",
+                    "name" : "영어띠 수능특강",
                     "due" : "2020-09-162",
                     "location" : null
                 }

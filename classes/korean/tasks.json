@@ -3,22 +3,22 @@
         {
             "name" : "국어 논술",
             "due" : "2020-09-16",
-            "location" : null
+            "location" : "None"
         },
         {
             "name" : "국어 문학 논술",
             "due" : "2020-09-12",
-            "location" : null
+            "location" : "None"
         },
         {
             "name" : "국어 독서 논술",
             "due" : "2020-09-113",
-            "location" : null
+            "location" : "None"
         },
         {
             "name" : "국어 수능특강",
             "due" : "2020-09-162",
-            "location" : null
+            "location" : "None"
         }
     ]
 }

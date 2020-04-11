@@ -1,4 +1,14 @@
 {
-    "studentData" : "C:/Users/Tool/Dev/ProjectReport/students.json",
-    "taskData" : "C:/Users/Tool/Dev/ProjectReport/tasks.json"
+    "settings" : [
+        {
+            "name" : "국어 수행띠",
+            "studentJsonPath" : "C:/Users/Tool/Dev/ProjectReport/classes/korean/students.json",
+            "taskJsonPath" : "C:/Users/Tool/Dev/ProjectReport/classes/korean/tasks.json"
+        },
+        {
+            "name" : "영어 수행띠",
+            "studentJsonPath" : "C:/Users/Tool/Dev/ProjectReport/classes/english/students.json",
+            "taskJsonPath" : "C:/Users/Tool/Dev/ProjectReport/classes/english/tasks.json"
+        }
+    ]
 }
